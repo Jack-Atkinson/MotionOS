@@ -1,0 +1,44 @@
+ MKRN32
+
+ Timestamp is 561ab46e (Sun Oct 11 14:11:42 2015)
+
+ Preferred load address is 00100000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000001d8H .text$mn                CODE
+ 0002:00000000 0000002cH .rdata                  DATA
+ 0002:0000002c 00000088H .rdata$zzzdbg           DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCZ                DATA
+ 0003:00000008 00000008H .data                   DATA
+ 0003:00000010 00000018H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___guard_flags             00000000     <absolute>
+ 0001:00000000       ?kernel_entry@@YAXXZ       00100400 f   kentry.obj
+ 0001:00000030       ?terminal_initialize@@YAXXZ 00100430 f   main.obj
+ 0001:000000a0       ?terminal_writestring@@YAXPBD@Z 001004a0 f   main.obj
+ 0001:00000140       _main                      00100540 f   main.obj
+ 0001:00000160       ?Exit@@YAXXZ               00100560 f   lib:cstd.obj
+ 0001:000001a0       ?InitializeConstructors@@YAXXZ 001005a0 f   lib:cstd.obj
+ 0002:00000000       ??_C@_0N@KNIDPCKA@Hello?5world?$CB?$AA@ 00100600     main.obj
+ 0003:00000000       ?__xc_a@@3PAP6AXXZA        00100800     lib:cstd.obj
+ 0003:00000004       ?__xc_z@@3PAP6AXXZA        00100804     lib:cstd.obj
+ 0003:00000008       __fltused                  00100808     lib:cstd.obj
+ 0003:00000010       ?terminal_row@@3IA         00100810     main.obj
+ 0003:00000014       ?terminal_column@@3IA      00100814     main.obj
+ 0003:00000018       ?terminal_color@@3EA       00100818     main.obj
+ 0003:0000001c       ?terminal_buffer@@3PAGA    0010081c     main.obj
+
+ entry point at        0000:00000000
+
+ Static symbols
+
+ 0003:0000000c       ?max_atexitlist_entries@@3IA 0010080c     lib:cstd.obj
+ 0003:00000020       ?pf_atexitlist@@3PAP6AXXZA 00100820     lib:cstd.obj
+ 0003:00000024       ?cur_atexitlist_entries@@3IA 00100824     lib:cstd.obj
